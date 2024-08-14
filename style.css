@@ -1,0 +1,77 @@
+body {
+  background-color: #ffe4e1;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  max-width: 500px;
+  margin: auto;
+}
+
+h1 {
+  color: #ff69b4;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.stickers {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.sticker {
+  max-width: 100px;
+  margin: 10px;
+}
+
+.video {
+  width: 200px;
+  border-radius: 15px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+#yesButton {
+  background-color: #ff69b4;
+  color: #fff;
+}
+
+#noButton {
+  background-color: #ffa07a;
+  color: #fff;
+  position: relative;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.hidden {
+  display: none;
+}
+
+.message {
+  margin-top: 30px;
+  font-size: 1.5em;
+  color: #ff1493;
+}
